@@ -436,6 +436,8 @@ case ${generic_target} in
 
   z8k-*-coff | z8k-*-sim)		fmt=coff ;;
 
+  i386-*-gaos*) fmt=elf ;;  
+
   *-*-aout | *-*-scout)			fmt=aout ;;
   *-*-dragonfly*)			fmt=elf em=dragonfly ;;
   *-*-freebsd* | *-*-kfreebsd*-gnu)	fmt=elf em=freebsd ;;

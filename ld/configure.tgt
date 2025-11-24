@@ -987,6 +987,9 @@ vax-*-linux-*)		targ_emul=elf32vax
 			;;
 visium-*-elf)		targ_emul=elf32visium
 			;;
+x86_64-*-gaos*)         targ_emul=elf_x86_64_gaos
+			targ_extra_emuls="elf_x86_64_gaos elf_x86_64"
+                        ;;
 x86_64-*-rdos*)		targ_emul=elf64rdos
 			;;
 x86_64-*-haiku*)	targ_emul=elf_x86_64_haiku
